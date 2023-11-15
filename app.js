@@ -1,3 +1,10 @@
-const h1=document.querySelector('h1');
-const date=new Date();
-h1.innerHTML=h1.textContent + ` <br> <br> Today's date is - ${date}`;
+const card=document.querySelector('ul');
+const NewButton=document.getElementById("btn-new");
+
+NewButton.addEventListener('click',()=>{
+    // const ul=document.createElement('ul');
+    const div=document.createElement('div');
+    div.innerHTML=`<h1>DONE</h1>`;
+    card.append(div);
+    console.log('clicked!');
+})
