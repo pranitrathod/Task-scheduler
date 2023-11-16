@@ -7,13 +7,52 @@ body {
     margin: 0;
     background-color: rgb(225, 118, 17)
   }
-  
-  #cd {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
 
-  }
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-content {
+    text-align: center;
+}
+
+.card-content h3 {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+.card-content label {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+
+/*.container {*/
+  /* Set height as per your requirement */
+
+
+/*.box {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: #ccc;*/
+/*    border: 1px solid #000;*/
+/*}*/
+
+
