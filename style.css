@@ -7,17 +7,16 @@ body {
     margin: 0;
     background-color: rgb(225, 118, 17)
   }
-
 .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 20px;
-
 }
 
 .card {
     width: 250px;
+    height: 400px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,23 +24,20 @@ body {
 .card-content {
     text-align: center;
 }
-
-.card-content h3 {
-    margin-bottom: 8px;
-    font-size: 1.2em;
-}
-
-.card-content p {
-    color: #666;
-    font-size: 0.9em;
-    margin-bottom: 15px;
-}
-
-.card-content label {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-}
+/*.card-content h3 {*/
+/*    margin-bottom: 8px;*/
+/*    font-size: 1.2em;*/
+/*}*/
+/*.card-content p {*/
+/*    color: #666;*/
+/*    font-size: 0.9em;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.card-content label {*/
+/*    text-decoration: none;*/
+/*    color: #030303;*/
+/*    font-weight: bold;*/
+/*}*/
 
 
 /*.container {*/
